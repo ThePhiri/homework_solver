@@ -23,14 +23,23 @@
 
             android:scaleType="fitCenter"
             android:src="@drawable/icon_logo" />
-
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="363dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/edit_text_design"
+            android:hint="User Name"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="24dp" />
 
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/edit_text_background"
+            android:background="@drawable/edit_text_design"
             android:drawablePadding="10dp"
             android:drawableStart="@drawable/ic_user"
             android:ems="10"
@@ -38,7 +47,7 @@
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColor="@color/white"
-            android:textColorHint="@color/hint_color"
+            android:textColorHint="@color/black"
             android:textSize="21sp" />
 
         <EditText
